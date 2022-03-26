@@ -12,7 +12,7 @@ const Shop = () => {
 	return (
 		<div className="shop-wrapper">
 			<h1 className="product-title">Our Bags</h1>
-			<div className='shops-container'>
+			<div className='shop-container'>
 				<div className="product-container">
 					{
 						products.map(product => <Product
