@@ -1,5 +1,5 @@
 import React from 'react';
-
+import shoppingCart from './img/shoppingCart.svg'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import './Product.css';
@@ -19,7 +19,7 @@ const Product = (props) => {
 			<button className='chart-button'>
 				<p onClick={() => props.addToChart(props.product)}>Add To Chart </p>
 				{/* <FontAwesomeIcon  icon={faCoffee}></FontAwesomeIcon> */}
-				<img src={logo192} alt="" />
+				<img src={shoppingCart} alt="" />
 				
 			</button>
 		</div>
