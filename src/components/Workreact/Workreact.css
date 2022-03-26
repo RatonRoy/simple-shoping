@@ -1,0 +1,13 @@
+.react-info-wrap{
+	padding: 2rem 4rem;
+}
+.work-title{
+	text-align: center;
+	color: crimson;
+	margin-bottom: 2rem;
+}
+.react-info{
+	letter-spacing: 0.07rem;
+	line-height: 2;
+	text-align: justify;
+}
