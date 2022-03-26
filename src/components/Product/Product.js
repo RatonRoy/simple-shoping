@@ -16,8 +16,8 @@ const Product = (props) => {
 				<p>Seller : {seller}</p>
 				<p>Rating : {ratings} Star</p>
 			</div>
-			<button className='chart-button'>
-				<p onClick={() => props.addToChart(props.product)}>Add To Chart </p>
+			<button className='chart-button' onClick={() => props.addToChart(props.product)}>
+				<p>Add To Chart </p>
 				{/* <FontAwesomeIcon  icon={faCoffee}></FontAwesomeIcon> */}
 				<img src={shoppingCart} alt="" />
 				

@@ -1,0 +1,18 @@
+ul{
+	list-style-type: none;
+	margin-top: 3rem;
+}
+.select-product{
+	/* margin-left: 1.5rem; */
+	text-align: center;
+}
+button{
+	padding: 0.7rem 1.5rem;
+	text-align: center; 
+	background-color: maroon;
+	color: white;
+	margin: 1rem 0;
+	border: none;
+	border-radius: 0.7rem;
+	cursor: pointer;
+}
