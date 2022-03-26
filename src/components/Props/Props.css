@@ -1,0 +1,42 @@
+.container{
+	padding: 2rem 4rem;
+}
+.title{
+	margin: 2rem 0;
+	text-align: center;
+	color: maroon;
+	text-transform: capitalize;
+	letter-spacing: 0.1rem;
+}
+.wrap-answer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center; 
+}
+.props, .state{
+	min-width: 45vw;
+}
+h3{
+	letter-spacing: 0.2rem;
+	/* margin: 2rem 0; */
+	margin-bottom: 1rem;
+	color: brown;
+}
+.state{
+	margin-left: 2rem;
+}
+ul li{
+	line-height: 1.5;
+	text-align: justify;
+	letter-spacing: 0.05rem;
+}
+@media screen and (max-width: 768px) {
+	.wrap-answer{
+		display: block;
+		text-align: center;
+	}
+	.state{
+		margin-top: 2rem;
+		margin-left: 0;
+	}
+}
